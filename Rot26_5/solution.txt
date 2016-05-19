@@ -1,0 +1,3 @@
+Caesar shifting any character by a multiple of 26 doesn't do anything to the character.
+
+flag{sanity_check} -> rot26 -> flag{sanity_check}
