@@ -1,0 +1,30 @@
+Immediately this problem sounds like the name of a problem from the 2016 CAMSCTF competition, Dizziness which
+involved putting the ciphertext into a square and reading it from there. Conveniently, the ciphertext
+can be put in a 17x17 square, so let's see what that reveals:
+
+ morf larips tsuj
+tuciffid nrad hs
+hl tcefrep a saoe
+etseb dah retnwgw
+ .qeuof reve e
+t unn37c6162ecsot
+oAa d5B .}e7v rs'
+ptre fu,di69aee n
+  emt6t .d56hhtsd
+ll,ph1,so 70 tcyl
+ee ti7 you67t aau
+facys2655f63'frwo
+tsa?: flag{7nialc
+ tn You would hA
+l  you imaginec y
+ithe number of ?h
+ke normal peopleW
+
+Reading from the bottom right character and spiraling up in a counter-clockwise direction, we can
+read the plaintext:
+
+Why couldn't we just spiral from the top left like normal people? Always so gosh darn difficult. At
+least the number of characters was a perfect square, can you imagine if the center had been empty? You wouldn't
+have ever found this: flag{73706972616c735f6172655f66756e}. But, you did so.
+
+flag{73706972616c735f6172655f66756e}
