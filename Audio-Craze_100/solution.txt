@@ -1,0 +1,12 @@
+Unzipping the file gives us a lot of mp3 files, each about a second long.
+Listening to each file shows that if we piece them together in the correct order, we will get the flag.
+The problem is that we don't know the order we are supposed to listen to them in.
+
+If we run
+
+$ exiftool -track *.mp3
+
+we get a list of all the mp3 files along with their corresponding track number.
+Sort the tracks and combine them into one large mp3 to get the flag. (see combine.sh)
+
+flag{puzzled_by_sound}
