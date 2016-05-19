@@ -1,0 +1,4 @@
+Looking up "magic eye decoder" on Google, we find http://magiceye.ecksdee.co.uk/.
+Upload the picture to the server and read the flag from the decoded picture.
+
+flag{you_c4n_c_m3}
