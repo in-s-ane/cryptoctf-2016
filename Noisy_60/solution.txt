@@ -1,0 +1,8 @@
+From intuition and experience, I assumed that the flag would be hidden in the difference between
+the two pngs.
+
+$ compare firstout.png secondout.png -compose src diff.png
+
+C'mon, these challenges are as common as caesar cipher ones...
+
+flag{we_all_have_our_differences}
