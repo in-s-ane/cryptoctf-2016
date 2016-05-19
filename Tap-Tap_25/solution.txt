@@ -7,4 +7,4 @@ v
 
 Decode the morse to get the flag:
 
-the_long_and_short_of_it
+flag{the_long_and_short_of_it}
