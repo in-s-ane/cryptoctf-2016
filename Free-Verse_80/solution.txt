@@ -1,0 +1,6 @@
+Looking at the ciphertext, it doesn't appear to involve any sort of transposition or any real encoding.
+However, taking a closer look at the text, we find that the flag is written vertically
+starting at the second line beginning with "f".
+Read down the characters to get the flag:
+
+flag{this_is_dumb}
