@@ -1,0 +1,5 @@
+The flag is hidden within the file, so just grep for it:
+
+$ grep -o "flag{[A-Za-z\-_0-9]\+}" baby_haystack
+
+flag{all_haystacks_are_this_easy_right}
