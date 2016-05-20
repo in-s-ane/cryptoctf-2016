@@ -1,0 +1,5 @@
+Playing around with possible words in the ciphertext, we find that the key was the problem description.
+
+Encrypting the flag with the problem statement? That's low. flag{keys_are_everywhere}
+
+flag{keys_are_everywhere}
