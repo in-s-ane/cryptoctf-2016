@@ -1,0 +1,6 @@
+Running the encryption program multiple times on the same string, we find out that the encrypted flag never changes, even though
+N, p, and q do. Realizing this, I decided to just run the decryption method on the encrypted string
+representing the flag found in leakyencryption.out. Simply run decrypt() on the encrypted string
+with any p and q value to get the flag:
+
+flag{ch0sen_c1phert3xt_att4ckz_r_ez}
