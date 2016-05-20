@@ -1,0 +1,11 @@
+Looking at the hex of the image, we find that the image has header hex resembling both pngs and jpgs.
+However, further investigation reveals that the image is actually a png, which we know from looking
+at the other chunks of data.
+
+If we add the appropriate headers and footers for the png, we can fix it and view the flag. (See repaired.png)
+flag{pelcgbpgs_vfn_pelcgbtencul_pbzcrgvgvba}
+
+But wait! The server does not accept this flag, so we must suspect that some further decoding is necessary to
+get the real flag. Turns out its a rot-13.
+
+flag{cryptoctf_isa_cryptography_competition}
