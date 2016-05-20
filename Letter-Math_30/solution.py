@@ -3,7 +3,7 @@ enc = open("letter_math.txt", "r").readlines()
 dec = ""
 
 for line in enc:
-    dec += chr(eval(str(ord(line[0])) + line[1:3]))
+    dec += chr(eval(str(ord(line[0])) + line[1:]))
 
 print dec
 
