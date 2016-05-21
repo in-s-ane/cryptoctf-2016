@@ -1,0 +1,11 @@
+Looking at the description of the problem, we are given the following:
+1YdMMvL
+
+It definitely doesn't look like a flag, but it does look like the type of randomly generated
+string you'd find on a website like pastebin or imgur.
+Trying out different websites (including pastebin) with that kind of url, it turns out that it was
+a bit.ly link.
+
+http://bit.ly/1YdMMvL -> http://pastebin.com/Y9MZHjFi
+
+flag{some_bs}
