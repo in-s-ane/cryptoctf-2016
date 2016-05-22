@@ -1,0 +1,8 @@
+Looking at the barcode and numbers given, we can guess that we need to somehow fix the barcode and scan it for the flag.
+However, looking at how the barcode for just "flag{" looks like, it seems that we need to remove some of the black lines.
+It turns out that we need to erase the
+4th, 11th, 15th, 25th, 36th, 47th, 70th, 83rd, 94th, and 104th
+black lines.
+
+Scan the repaired barcode to get the flag:
+flag{lol_numbers_really_work}
