@@ -1,0 +1,6 @@
+Probably an unintended solution, but I solved the problem by comparing the
+initial release file with the updated version. Looking at the difference, I noticed
+that there was an offset around the word "spawning". Grepping for "spawning" in
+the updated version, we find the flag:
+
+pandemoniumensuessubsequentlytobamboofiresspawningarmageddon
